@@ -1,1 +1,1 @@
-# Airplane_seang_algorithm
+# Airplane_seating_algorithm
