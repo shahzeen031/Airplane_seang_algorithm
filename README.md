@@ -29,6 +29,15 @@ To run this program, you'll need to have Node.js installed on your computer. If 
 
 Therefore, the overall time complexity of the code is O(maxrow * maxcol), where maxrow and maxcol are the maximum number of rows and columns in the airplane, respectively.
 
+## Space complexity
 
+1. The aeroplaneseats function creates a 2D array array to store the seat types and seat numbers, so the space complexity of this function is O(maxrow * maxcol).
+The seats_position function creates three arrays to store the positions of the center, window, and aisle seats, so the space complexity of this function is O(maxrow * maxcol).
+
+2. The aeroplaneseats function creates another array seating_arrangemant to store all the seat positions, so the space complexity of this function is O(maxrow * maxcol).
+
+3. The space complexity of the remaining functions is negligible.
+
+Therefore, the overall space complexity of the provided code is O(maxrow * maxcol).
 
 
