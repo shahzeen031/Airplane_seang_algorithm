@@ -40,4 +40,16 @@ The seats_position function creates three arrays to store the positions of the c
 
 Therefore, the overall space complexity of the provided code is O(maxrow * maxcol).
 
+## Example 
+
+```js
+//Input
+[ [3, 2],[4,3],[2,3],[3,4]],30
+
+// Output
+19      25      1       2       26      27      3       4       5       6       28      20
+21      29      7       8       30      C       9       10      11      12      C       22
+0       0       0       13      C       C       14      15      16      17      C       23
+0       0       0       0       0       0       0       0       0       18      C       24
+
 
